@@ -76,17 +76,30 @@ video {
     margin-right: auto;
     
 }
-
+.beach{
+    float: right;
+}
 
 .contactinfo{
     align-content: left;
     display: inline-block;
 }
 
+
 .image{
     float: right;
-    align-items: center;
-    display: inline-flex;
+    
+}
+
+#aboutme{
+    display: flex;
+    flex-direction: row;
+}
+
+#writeup{
+    display: flex;
+    flex-direction: row;
+    padding-left: 3%;
 }
 
 #legraphic{
@@ -165,7 +178,8 @@ main {
 
 p {
     font-size: 13pt;
-    color: #000000;
+    color: #f5f5d3;
+    float: left;
 }
 
 h1 { /*katelyn parsons portfolio heading */
